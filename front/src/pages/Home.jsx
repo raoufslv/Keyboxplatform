@@ -147,7 +147,7 @@ const Home = () => {
               Watch Our Video tutorial
             </h2>
             <iframe
-              src="https://www.youtube.com/embed/HSQTzY1te2Y"
+              src="https://www.youtube.com/embed/sNIlGApPpxQ"
               frameBorder="0"
               allow="autoplay; encrypted-media"
               allowFullScreen

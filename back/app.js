@@ -10,8 +10,8 @@ const Role = db.role;
 
 const app = express();
 
-var corsOptions = {
-  origin: "http://localhost:8081",
+const corsOptions = {
+  origin: "http://localhost:5173", // Replace this with the origin of your React app
 };
 
 app.use(cors(corsOptions));
@@ -33,7 +33,7 @@ function initial() {
           Role.create({ name: "adult" }),
           Role.create({ name: "enfant" }),
           Role.create({ name: "admin" }),
-          Role.create({ name: "formateur" }),
+          Role.create({ name: "formateur" }),   
         ])
           .then(() => {
             console.log("Roles added to the roles collection");
